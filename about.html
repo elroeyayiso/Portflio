@@ -1,37 +1,371 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me </title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Insight.html">Insight</a></li>
-            
-            </ul>
-        </nav>
-    </header>
-    <main class="about">
-        <div class="home">
-            <div class="content">
-                <h1>About Me</h1>
-                <p>I'm Elroe, a a senior Informatics student at the University of Washington, specializing in Data Science. My passion for using technology to solve real-world problems began with personal experiences in Ethiopia, where I witnessed the challenges in both transportation and healthcare access. These experiences inspired me to focus on creating technology-driven solutions that improve people's lives, particularly in underserved communities.
 
-                    During a study abroad program in Ethiopia, I conducted research on public transportation efficiency, which led me to propose a Real-Time Bus Tracking Mobile App aimed at reducing wait times for commuters in Addis Ababa. Alongside my transportation work, I have also been deeply involved in health data visualization. I worked on a research project that explored how immigrant households understand COVID-19 data, developing new ways of visualizing healthcare information that goes beyond traditional graphs to make data more accessible and meaningful.
-                    
-                    By designing interactive visualizations that represent different layers of social support—family, friends, community, healthcare systems—I aim to help people make informed healthcare decisions. My work is driven by the desire to close the gap between healthcare systems and the communities they serve, particularly when faith and cultural values play a key role in decision-making.</p>
-            </div>
+```
+<title>About | Elroe Yayiso</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="about.css">
+```
+
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+
+```
+    <a href="index.html" class="logo">EY<span>.</span></a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="about.html" class="active">About</a>
+        <a href="Insight.html">Insight</a>
+    </div>
+
+    <div class="nav-socials">
+        <a href="https://github.com/elroeyayiso" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/elroeyayiso/" target="_blank">LinkedIn</a>
+    </div>
+
+</nav>
+```
+
+</header>
+
+<main>
+
+```
+<!-- INTRO -->
+<section class="about-intro">
+    <div class="section-label">01 — ABOUT ME</div>
+
+    <div class="intro-grid">
+
+        <div class="intro-title">
+            <h1>
+                Technology became<br>
+                meaningful to me<br>
+                <em>through people.</em>
+            </h1>
         </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+
+        <div class="intro-text">
+            <p>
+                I'm Elroe, a data scientist and researcher interested in
+                how technology can help people understand information,
+                access opportunities, and solve problems that affect their
+                everyday lives.
+            </p>
+
+            <p>
+                My interest in technology comes from both curiosity and
+                experience. Growing up in Ethiopia, I saw how limited
+                access to technology and information could create barriers
+                for people and communities.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- WHY TECHNOLOGY -->
+<section class="about-story">
+
+    <div class="story-number">02</div>
+
+    <div class="story-content">
+
+        <div class="section-label">WHY TECHNOLOGY</div>
+
+        <h2>
+            I wanted to understand
+            <span>how technology could close gaps.</span>
+        </h2>
+
+        <p>
+            As I learned more about technology, I became interested in
+            more than just building software. I wanted to understand who
+            technology was being built for, who was being left out, and
+            how data could help us better understand people's experiences.
+        </p>
+
+        <p>
+            That perspective has shaped the projects and research I have
+            chosen throughout college and beyond. Whether I am working with
+            data, building an application, or conducting research, I try to
+            keep the people affected by the technology at the center of
+            the work.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- COMMUNITY -->
+<section class="community-section">
+
+    <div class="section-label">03 — COMMUNITY</div>
+
+    <div class="community-grid">
+
+        <div>
+            <h2>
+                Technology should create
+                <em>more opportunities.</em>
+            </h2>
+        </div>
+
+        <div class="community-text">
+
+            <div class="community-item">
+                <span class="item-number">01</span>
+
+                <div>
+                    <h3>Teaching students</h3>
+
+                    <p>
+                        Through AVELA XR & AI Lab, I worked with students
+                        who had limited access to technology and taught
+                        programming, data, and XR concepts. Working with
+                        students from communities that are often
+                        underrepresented in technology reminded me that
+                        access and exposure can make a major difference in
+                        whether someone sees technology as something they
+                        can participate in.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="community-item">
+                <span class="item-number">02</span>
+
+                <div>
+                    <h3>Working with immigrant communities</h3>
+
+                    <p>
+                        My research at the University of Washington focused
+                        on understanding how Ethiopian immigrant communities
+                        interact with health information and data.
+                        Through interviews, workshops, and diary studies,
+                        I learned how language, culture, and existing
+                        support systems can influence how people understand
+                        and use information.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="community-item">
+                <span class="item-number">03</span>
+
+                <div>
+                    <h3>Looking beyond the data</h3>
+
+                    <p>
+                        These experiences taught me that a technical
+                        solution is only part of the process. Understanding
+                        the people, communities, and circumstances behind
+                        the data is just as important.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RESEARCH -->
+<section class="research-story">
+
+    <div class="section-label">04 — RESEARCH</div>
+
+    <div class="research-grid">
+
+        <div class="research-heading">
+            <p class="small-label">WHAT I LEARNED</p>
+
+            <h2>
+                Data tells a story,
+                but people give it
+                <em>meaning.</em>
+            </h2>
+        </div>
+
+        <div class="research-text">
+
+            <p>
+                My research experiences have allowed me to work directly
+                with communities and explore how technology can better
+                reflect their needs.
+            </p>
+
+            <p>
+                From studying public transportation waiting times in
+                Addis Ababa to exploring how immigrant communities
+                understand health data, I have become interested in the
+                space between data and lived experience.
+            </p>
+
+            <p>
+                That is one of the reasons I enjoy data science and
+                research. The technical side gives me tools to find
+                patterns, while research helps me understand what those
+                patterns actually mean.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WHAT DRIVES ME -->
+<section class="values-section">
+
+    <div class="section-label">05 — WHAT DRIVES ME</div>
+
+    <div class="values-grid">
+
+        <div class="value-card">
+            <span>01</span>
+            <h3>Curiosity</h3>
+            <p>
+                I like asking questions, exploring unfamiliar problems,
+                and understanding how things work.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <span>02</span>
+            <h3>Community</h3>
+            <p>
+                The people affected by technology should be part of the
+                conversation about how it is designed.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <span>03</span>
+            <h3>Accessibility</h3>
+            <p>
+                I care about making technology, information, and
+                opportunities easier for people to access.
+            </p>
+        </div>
+
+        <div class="value-card">
+            <span>04</span>
+            <h3>Learning</h3>
+            <p>
+                I am always looking for opportunities to learn something
+                new and apply it to problems that matter.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CURRENT -->
+<section class="about-now">
+
+    <div class="section-label">06 — NOW</div>
+
+    <div class="now-content">
+
+        <h2>
+            Still learning.<br>
+            Still building.<br>
+            <em>Still asking questions.</em>
+        </h2>
+
+        <div>
+            <p>
+                Today, I am continuing to build my experience across data
+                science, AI, and research. I am especially interested in
+                work where technical skills can be combined with an
+                understanding of people and real-world problems.
+            </p>
+
+            <p>
+                I want my work to be useful — not just technically
+                interesting, but meaningful to the people who experience
+                it.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="about-cta">
+
+    <p class="section-label">LET'S CONNECT</p>
+
+    <h2>
+        Interested in what I'm
+        <em>working on?</em>
+    </h2>
+
+    <div class="cta-buttons">
+        <a href="project.html" class="button primary">Explore My Work →</a>
+        <a href="https://www.linkedin.com/in/elroe-yayiso/" target="_blank" class="button secondary">
+            Connect on LinkedIn
+        </a>
+    </div>
+
+</section>
+```
+
+</main>
+
+<footer class="site-footer">
+
+```
+<div class="footer-top">
+    <div>
+        <a href="index.html" class="footer-logo">EY<span>.</span></a>
+        <p>Data · Research · AI</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="Insight.html">Insight</a>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <p>© 2026 Elroe Yayiso</p>
+
+    <a href="mailto:elroeyayiso123@gmail.com">
+        elroeyayiso123@gmail.com
+    </a>
+</div>
+```
+
+</footer>
+
 </body>
 </html>

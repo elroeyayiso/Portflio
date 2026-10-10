@@ -1,61 +1,357 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="Insight.css"> <!-- Link to your CSS file -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Example for favicon, adjust as needed -->
+
+```
+<title>Insight | Elroe Yayiso</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Insight.css">
+```
+
 </head>
+
 <body>
 
-<header>
-     <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Insight.html">Insight</a></li>
-            </ul>
-        </nav>
+<header class="site-header">
+    <nav class="navbar">
+
+```
+    <a href="index.html" class="logo">
+        EY<span>.</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Insight.html" class="active">Insight</a></li>
+    </ul>
+
+    <div class="nav-socials">
+        <a href="https://github.com/elroeyayiso" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+
+</nav>
+```
+
 </header>
 
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Incorporating AI: Making a Difference</h1>
-        </header>
-        <article>
-            <section>
-                <h2>AI in Transportation</h2>
-                <p>In transportation, AI can help make travel smoother and safer. For example, AI can analyze traffic data to manage traffic lights better, which can reduce traffic jams. It can also assist in developing self-driving cars, which could decrease accidents caused by human error. Additionally, using AI in public transportation can help keep buses and trains on schedule by predicting when they will arrive, making commuting easier for everyone.</p>
-            </section>
+<main>
 
-            <section>
-                <h2>AI in Healthcare</h2>
-                <p>AI is also making waves in healthcare. It can analyze patient data and medical images to help doctors diagnose illnesses more accurately. Furthermore, AI can predict how patients will respond to different treatments, allowing for more personalized care. By automating routine tasks, AI can free up healthcare workers to spend more time with patients. However, we must be careful to protect people’s privacy and ensure that AI is fair for everyone.</p>
-            </section>
+```
+<!-- BLOG HEADER -->
 
-            <section>
-                <h2>AI in Data Visualization</h2>
-                <p>When it comes to data visualization, AI can help turn complex information into easy-to-understand visuals. This is especially important for presenting health data to communities that might find traditional charts and graphs confusing. By creating interactive visualizations, I want to help people understand important health information and make better decisions for themselves and their families.</p>
-            </section>
+<section class="blog-header">
 
-            <section>
-                <h2>Challenges and Considerations</h2>
-                <p>Even though AI has many benefits, we also need to think about the challenges it brings. For instance, there are concerns about job loss due to automation and potential biases in AI systems. It’s important to create AI in a way that is ethical and fair. Involving diverse voices in developing these technologies can help address these issues and ensure AI benefits everyone.</p>
-            </section>
+    <p class="section-label">PERSONAL JOURNAL</p>
 
-            <section>
-                <h2>Looking Ahead</h2>
-                <p>As I continue my studies in Informatics, I’m excited about how AI can be a part of my projects. I want to explore how AI can improve access to transportation and healthcare services, especially for those who need it most. I believe that by using AI wisely, we can create solutions that help people live better lives.</p>
-            </section>
+    <h1>
+        Thoughts,<br>
+        <em>observations & ideas.</em>
+    </h1>
+
+    <div class="header-bottom">
+
+        <p>
+            A place where I write about technology, data, AI,
+            research, community, and things I'm learning along the way.
+        </p>
+
+        <span>EST. 2026</span>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURED READING -->
+
+<section class="featured-section">
+
+    <div class="section-top">
+        <span>01</span>
+        <p>FEATURED READING</p>
+    </div>
+
+    <article class="featured-post">
+
+        <div class="featured-meta">
+            <span>TECHNOLOGY</span>
+            <span>•</span>
+            <span>READING</span>
+        </div>
+
+        <h2>
+            What does it mean to build technology
+            <em>for people?</em>
+        </h2>
+
+        <p class="post-preview">
+            Technology is often described by what it can do.
+            But I think we should also ask who it is helping,
+            who is being left out, and whether the solution
+            actually addresses the problem people experience.
+        </p>
+
+        <a href="https://www.nngroup.com/articles/human-centered-design/" 
+           class="read-more" 
+           target="_blank" 
+           rel="noopener noreferrer">
+            Read article <span>↗</span>
+        </a>
+
+    </article>
+
+</section>
+
+
+<!-- READING LIST -->
+
+<section class="posts-section">
+
+    <div class="section-top">
+        <span>02</span>
+        <p>READING LIST</p>
+    </div>
+
+
+    <div class="posts-grid">
+
+
+        <!-- AI -->
+
+        <article class="post-card">
+
+            <div class="post-number">01</div>
+
+            <div class="post-content">
+
+                <div class="post-meta">
+                    <span>AI</span>
+                    <span>READING</span>
+                </div>
+
+                <h3>
+                    AI should help us think,
+                    not think for us.
+                </h3>
+
+                <p>
+                    My thoughts on AI education, learning,
+                    and why giving someone an answer isn't
+                    always the same as helping them learn.
+                </p>
+
+                <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Read more →
+                </a>
+
+            </div>
+
         </article>
 
-        <footer>
-            <p>In summary, AI has the potential to bring positive changes to our world, and I’m eager to be a part of this exciting journey. By focusing on responsible development and keeping ethical considerations in mind, we can ensure AI serves as a helpful tool for everyone.</p>
-        </footer>
+
+        <!-- DATA -->
+
+        <article class="post-card">
+
+            <div class="post-number">02</div>
+
+            <div class="post-content">
+
+                <div class="post-meta">
+                    <span>DATA</span>
+                    <span>READING</span>
+                </div>
+
+                <h3>
+                    When data tells a story,
+                    who gets to tell it?
+                </h3>
+
+                <p>
+                    Data can reveal patterns, but understanding
+                    those patterns often requires understanding
+                    the people behind them.
+                </p>
+
+                <a href="https://www.data-to-viz.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Read more →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- COMMUNITY -->
+
+        <article class="post-card">
+
+            <div class="post-number">03</div>
+
+            <div class="post-content">
+
+                <div class="post-meta">
+                    <span>COMMUNITY</span>
+                    <span>READING</span>
+                </div>
+
+                <h3>
+                    Technology access is more
+                    than having a computer.
+                </h3>
+
+                <p>
+                    What I've learned from teaching programming
+                    and working with students who have had
+                    limited access to technology.
+                </p>
+
+                <a href="https://www.pewresearch.org/internet/fact-sheet/internet-broadband/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Read more →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- RESEARCH -->
+
+        <article class="post-card">
+
+            <div class="post-number">04</div>
+
+            <div class="post-content">
+
+                <div class="post-meta">
+                    <span>RESEARCH</span>
+                    <span>READING</span>
+                </div>
+
+                <h3>
+                    What research taught me about
+                    asking better questions.
+                </h3>
+
+                <p>
+                    Research isn't just about collecting data.
+                    Sometimes the most important part is learning
+                    how to ask the right question in the first place.
+                </p>
+
+                <a href="https://www.nngroup.com/articles/which-one-to-use-qualitative-or-quantitative-research/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Read more →
+                </a>
+
+            </div>
+
+        </article>
+
     </div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+
+<section class="topics-section">
+
+    <div class="topics-title">
+
+        <p class="section-label">WHAT I WRITE ABOUT</p>
+
+        <h2>
+            Ideas I'm<br>
+            <em>exploring.</em>
+        </h2>
+
+    </div>
+
+    <div class="topics">
+
+        <span>AI</span>
+        <span>DATA</span>
+        <span>RESEARCH</span>
+        <span>TECHNOLOGY</span>
+        <span>COMMUNITY</span>
+        <span>EDUCATION</span>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="blog-cta">
+
+    <p class="section-label">KEEP READING</p>
+
+    <h2>
+        More thoughts<br>
+        <em>coming soon.</em>
+    </h2>
+
+    <p>
+        I'm using this space to document what I'm learning,
+        questions I'm thinking about, and ideas I want to explore.
+    </p>
+
+</section>
+```
+
+</main>
+
+<footer class="site-footer">
+
+```
+<div class="footer-top">
+
+    <div>
+        <div class="footer-logo">EY<span>.</span></div>
+        <p>Data • Research • AI</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="Insight.html">Insight</a>
+    </div>
+
+</div>
+
+<div class="footer-bottom">
+
+    <span>© 2026 Elroe Yayiso</span>
+
+    <span>
+        Built with curiosity.
+    </span>
+
+</div>
+```
+
+</footer>
+
 </body>
 </html>
